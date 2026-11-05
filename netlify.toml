@@ -1,0 +1,7 @@
+[build]
+  base    = "Task9.1C"
+  command = "npm install && npm run build"
+
+# Remove or override functions directory
+[functions]
+  directory = "netlify/functions"

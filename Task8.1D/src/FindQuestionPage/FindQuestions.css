@@ -1,0 +1,45 @@
+.find-questions-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .filters input {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  .question-card {
+    border: 1px solid #ddd;
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .question-summary h3 {
+    margin: 0;
+  }
+  
+  .question-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .question-details button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .question-image {
+    width: 300px;
+    height: 200px;      
+    object-fit: cover;  
+    object-position: center; 
+    border-radius: 8px; 
+  }

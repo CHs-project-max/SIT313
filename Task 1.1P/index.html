@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+    <tittle></tittle>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id = "about" class = "header">
+        <img src = "Blog-banner-11.jpg" alt = "Background Image">
+        <h3>Hey, I'm Chhay Hout</h3>
+    </div>
+    <div id = "work" class="Introduction">
+        <img src ="Profile.jpg">
+        <h3>I am a Software Engineering student in Deakin University, Burwood campus.</h3>
+    </div>
+    <hr>
+    <h4>Here's what I've done so far</h4>
+    <div class = "Project1">
+        <img src = "Project1.jpg" >
+        <p>This a humidity sensor project
+        where I use a microcontroller to send
+        tamperature humidity datas to cloud.
+        </p>
+    </div>
+    <div class = "Project2">
+        <img src = "Project2.jpg">
+        <p>This is a interrupt project where
+            I included a physical pin interrupt
+            which is triggered by a switch 
+            and a timer interrupt that triggered by 
+            inner timer on the microcontroller</p>
+    </div>
+    <hr>
+    <h5>My Photos</h5>
+    <div class = "Gallery">
+        <img src = "Blog-banner-11.jpg">
+        <img src = "Deakin University.jpg">
+        <img src = "Project1.jpg">
+        <img src = "Project2.jpg">
+    </div>
+
+    <div id = "contact" class = "contact">
+        <a>Email: example@gamil.com</a><br>
+        <a>Phone: +61-1234-1234</a>
+    </div>
+</body>
+<style>
+
+
+    nav {
+        top: 0;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        background-color: white;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    nav a, nav a:visited, nav a:active {
+          color: gray;
+          text-decoration: none;
+    }
+
+    nav a:hover{
+        color: black;
+    }
+    .header{
+        position: relative;
+    }
+    .header img{
+        margin-top: 6px;
+        padding : 0;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .header h3 {
+        position:absolute;
+        top :80%;
+        color: rgb(255, 255, 255);
+        font-size: 3vw;
+        font-family: Arial;
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .header:hover h3{
+        opacity: 1;
+    }
+    .Introduction img{
+        width: 200px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin:auto;
+        padding-top: 10px;
+    }
+
+    .Introduction h3{
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: lighter;
+        color: darkcyan;
+        text-align: center;
+    }
+
+    hr{
+        height :3px;
+        width: 30%;
+        margin : auto;
+        background-color: darkcyan;
+    }
+
+    h4{
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: normal;
+        color: darkcyan;
+        text-align: center;
+    }
+
+    .Project1, .Project2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 800px;
+    }
+ 
+    .Project1 img{
+        width : 300px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .Project2 img{
+        width : 300px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .Project1 p, .Project2 p {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: normal;
+        color: darkcyan;
+    }
+
+    h5{
+        font-family: Arial;
+        font-size: 30px;
+        color : darkcyan;
+        text-align: center;
+    }
+
+    .Gallery {
+        display : flex;
+        flex-wrap: wrap;
+        gap : 5px;
+        justify-content: center;
+    }
+
+    .Gallery img{
+        width : 300px;
+        aspect-ratio: 1/1;
+        flex : 1 0 300px;
+        min-width: 300px;
+        object-fit: cover;
+    }
+
+    .contact{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+</style>

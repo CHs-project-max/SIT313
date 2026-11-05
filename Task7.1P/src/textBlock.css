@@ -1,0 +1,15 @@
+.textBlock{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.textBlockHeader{
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textBlockitem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}

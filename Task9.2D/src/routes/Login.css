@@ -1,0 +1,50 @@
+.LoginBlock{
+    display: grid;
+    place-items: center;
+    height : 20vh;
+}
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content inside to the left */
+    position: relative;       /* Needed for absolutely positioning children */
+    padding: 20px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 149, 255);;
+  }
+  
+  .LoginBox {
+    margin: 8px 0;
+    padding: 8px;
+    width: 300px;
+    height: 10px;
+    border-radius: 0;
+    font-size: 16px;
+  }
+  
+  .Logintext {
+    margin: 12px 0 4px;
+    font-size: 16px;
+  }
+  .Loginbtn{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 149, 255);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ErrorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

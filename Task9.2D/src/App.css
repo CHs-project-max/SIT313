@@ -1,0 +1,22 @@
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+.header, .footer {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+:root {
+  --primary-bg: #ffffff;       
+  --primary-text: #000000;    
+  --component-bg: #c8c8c8;   
+}
+
+[data-theme="dark"] {
+  --primary-bg: #1c1c1c;      
+  --primary-text: #ffffff;   
+  --component-bg: #3a3a3a;     
+}
+

@@ -1,0 +1,46 @@
+.body {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: lightgray;
+    padding: 0;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .text {
+    margin-left: 2vw;
+    margin-right: 10px;
+    font-size: medium;
+  }
+  
+  .query {
+    width: 65vw;
+    height: 1.6vw;
+    box-sizing: border-box;
+  }
+  
+  .right {
+    display: flex;
+    margin-right: 2vw;            
+    margin-left: auto;
+    flex-wrap: nowrap;
+  }
+  
+  
+  .btn-text {
+    white-space: nowrap; 
+    width: 100px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2px 8px;   
+    text-align: center;
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,19 @@
+.Text{
+    margin : 0;
+    height: 2.2hw;
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+    background-color: lightgray;
+    font-size: 3vh;
+}
+.PostOption{
+    text-align: left;
+    display: flex;
+    font-size: 20px ;
+    align-items: center;
+    gap: 8vw;
+
+}
+
+

@@ -1,0 +1,21 @@
+.ShowAll{
+    display: block;
+    margin: 5% auto;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 1.5vw;
+    border: none;
+    background-color: var( --component-bg);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color: var( --primary-text);
+}
+
+.ShowAll:hover{
+    background-color: gray;
+}
+
+.ShowAll:active{
+    background-color: darkgray;
+}

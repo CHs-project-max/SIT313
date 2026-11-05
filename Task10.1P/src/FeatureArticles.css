@@ -1,0 +1,8 @@
+.FeatureArticles {
+    display: flex;
+    align-items: top;
+    gap: 10vw; 
+    flex-wrap: 0 0 wrap; 
+    justify-content: center; 
+  }
+  
